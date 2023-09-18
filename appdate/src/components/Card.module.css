@@ -1,0 +1,86 @@
+.cardContainer {
+  background-color: var(--White);
+  border-radius: 20px 20px 100px 20px;
+  width: 90%;
+  margin: 0 auto;
+  padding-bottom: 1rem;
+}
+
+.formContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 1rem;
+  position: relative;
+  padding: 3rem 0.5rem;
+  letter-spacing: 0.2em;
+  width: 80%;
+  margin: 0 auto;
+
+  border-bottom: 1px solid var(--Light-grey);
+}
+
+.inputContainer > input {
+  width: 70%;
+  height: 20px;
+  outline: none;
+  font-size: 1.2rem;
+  font-family: poppins;
+  border: 1px solid var(--Light-grey);
+  border-radius: 10px;
+  margin-bottom: 1rem;
+  padding: 0.8rem;
+}
+
+.inputContainer > h3 {
+  color: var(--Smoke-grey);
+  font-size: 0.7rem;
+  margin: 0;
+}
+.buttonCard {
+  border: none;
+  background-color: var(--Purple);
+  border-radius: 100%;
+  width: 60px;
+  height: 60px;
+  position: absolute;
+  left: 40%;
+  top: 83%;
+}
+.buttonCard > img {
+  width: 50%;
+}
+
+.infoContainer {
+  margin-top: 2.5rem;
+  margin-left: 2rem;
+  margin-bottom: 2rem;
+}
+
+@media (min-width: 1240px) {
+  .cardContainer {
+    width: 40%;
+    margin: 4rem auto;
+  }
+
+  .formContainer {
+    margin: 0 2rem;
+  }
+
+  .inputContainer > input {
+    cursor: pointer;
+  }
+
+  .buttonCard {
+    left: 90%;
+    cursor: pointer;
+  }
+
+  .buttonCard:hover {
+    background-color: black;
+  }
+
+  .inputContainer > input {
+    margin-bottom: 0;
+  }
+}
