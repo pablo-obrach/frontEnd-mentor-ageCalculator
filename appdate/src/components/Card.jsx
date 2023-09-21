@@ -87,7 +87,7 @@ const Card = () => {
   }
 
   return (
-    <div className={styles.cardContainer}>
+    <div role='main' className={styles.cardContainer}>
       <form
         className={styles.formContainer}
         action=''
@@ -95,7 +95,7 @@ const Card = () => {
         onSubmit={handleSubmit}
       >
         <div className={styles.inputContainer}>
-          <h3>DAY</h3>
+          <h1>DAY</h1>
           <input
             name='day'
             type='number'
@@ -107,7 +107,7 @@ const Card = () => {
         </div>
 
         <div className={styles.inputContainer}>
-          <h3>MONTH</h3>
+          <h2>MONTH</h2>
           <input
             name='month'
             type='number'

@@ -32,6 +32,8 @@
   padding: 0.8rem;
 }
 
+.inputContainer > h1,
+.inputContainer > h2,
 .inputContainer > h3 {
   color: var(--Smoke-grey);
   font-size: 0.7rem;
@@ -60,7 +62,7 @@
 @media (min-width: 1240px) {
   .cardContainer {
     width: 40%;
-    margin: 4rem auto;
+    margin: 10rem auto;
   }
 
   .formContainer {
